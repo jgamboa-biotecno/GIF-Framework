@@ -10,7 +10,7 @@ LABEL license="Apache-2.0"
 # System dependencies (blast+ for AMR detection, prodigal for gene prediction,
 # git required by chewBBACA for schema download)
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    blast+ \
+    ncbi-blast+ \
     prodigal \
     wget \
     git \

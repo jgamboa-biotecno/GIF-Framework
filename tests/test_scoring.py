@@ -202,7 +202,7 @@ class TestValidationExpected:
             "inla_status": "complete",
         }
         result = calculate_gif_score(markers)
-        v = result["components"]["virulence"]
+        v = result["v_score"]
         assert v > 50, f"CC6 V-Score should be >50, got {v}"
 
     def test_cc121_saprotroph_expected(self):
@@ -216,7 +216,7 @@ class TestValidationExpected:
             "gad_genes_count": 3,
         }
         result = calculate_gif_score(markers)
-        v = result["components"]["virulence"]
-        p = result["components"]["persistence"]
+        v = result["v_score"]
+        p = result["p_score"]
         assert v < 30, f"CC121 truncated V should be <30, got {v}"
         assert p > 40, f"CC121 with SSI+qac P should be >40, got {p}"

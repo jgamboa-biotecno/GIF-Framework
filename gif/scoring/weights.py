@@ -9,8 +9,11 @@ from typing import Any, Dict
 
 
 # =============================================================================
-# CONTEXT PROFILES (v3.1.0)
-# Validated empirically with 903 genomes across 4 independent datasets
+# CONTEXT PROFILES
+# Empirically validated against published external datasets.
+# AUC values reported below are computed against the corresponding
+# validation_dataset; see the preprints in CITATION.cff for the full
+# validation methodology and discussion.
 # =============================================================================
 
 CONTEXT_PROFILES: Dict[str, Dict[str, Any]] = {

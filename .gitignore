@@ -1,26 +1,24 @@
-# =============================================================================
-# GIF Framework v1.0 — .gitignore
-# =============================================================================
+# GIF Framework — .gitignore
 
-# Python bytecode y cache
+# Python bytecode and cache
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Empaquetado y distribución
+# Packaging and distribution
 *.egg-info/
 *.egg
 dist/
 build/
 *.whl
 
-# Entornos virtuales
+# Virtual environments
 .env
 .venv/
 venv/
 env/
 
-# IDE y editores
+# IDEs and editors
 .vscode/
 .idea/
 *.swp
@@ -29,12 +27,12 @@ env/
 .project
 .settings/
 
-# Temporales de ejecución del CLI
+# CLI runtime temporaries
 /tmp/
 *.log
 gif_cli_tmp_*/
 
-# Datos genómicos descargados (pesados, no versionables)
+# Downloaded genomic data (large, not versioned)
 *.fastq
 *.fastq.gz
 *.fq
@@ -43,11 +41,11 @@ gif_cli_tmp_*/
 *.sam
 *.sra
 
-# Resultados de ejecución (el usuario los genera, no son parte del repo)
+# Runtime output (user-generated, not part of the repo)
 results/
 output/
 
-# Bases de datos descargadas en runtime (las de referencia empaquetadas SÍ suben)
+# Databases downloaded at runtime (packaged reference data IS committed)
 gif/db/downloaded/
 
 # OS
@@ -55,11 +53,11 @@ gif/db/downloaded/
 Thumbs.db
 Desktop.ini
 
-# Coverage y testing
+# Coverage and testing
 .coverage
 htmlcov/
 .pytest_cache/
 .tox/
 
-# Jupyter (por si alguien experimenta)
+# Jupyter
 .ipynb_checkpoints/

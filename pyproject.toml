@@ -36,3 +36,16 @@ gif = "gif.cli:main"
 Homepage = "https://github.com/jgamboa-biotecno/GIF-Framework"
 Repository = "https://github.com/jgamboa-biotecno/GIF-Framework"
 Issues = "https://github.com/jgamboa-biotecno/GIF-Framework/issues"
+
+[tool.setuptools.packages.find]
+include = ["gif*"]
+exclude = ["tests*"]
+
+[tool.setuptools.package-data]
+"gif" = [
+    "db/reference_data/*.json",
+    "db/reference_data/amr/*.fasta",
+    "db/reference_data/operational/*.fasta",
+    "db/reference_data/persistence/*.fasta",
+    "db/reference_data/virulence/*.fasta",
+]

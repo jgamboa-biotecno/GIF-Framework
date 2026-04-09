@@ -1,4 +1,4 @@
-# GIF Scoring Specification v3.1
+# GIF Scoring Specification
 
 ## Overview
 
