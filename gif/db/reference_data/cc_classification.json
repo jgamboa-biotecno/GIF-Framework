@@ -1,0 +1,369 @@
+{
+  "_metadata": {
+    "name": "Clonal Complex Epidemiology Database",
+    "description": "Clinical significance and epidemiological classification of L. monocytogenes clonal complexes",
+    "version": "1.2.0",
+    "last_updated": "2026-02-08",
+    "primary_sources": [
+      {
+        "reference": "Maury et al. 2016",
+        "title": "Uncovering Listeria monocytogenes hypervirulence by harnessing its biodiversity",
+        "journal": "Nature Genetics",
+        "doi": "10.1038/ng.3501",
+        "pmid": "26829754"
+      },
+      {
+        "reference": "Moura et al. 2016",
+        "title": "Whole genome-based population biology and epidemiological surveillance of Listeria monocytogenes",
+        "journal": "Nature Microbiology",
+        "doi": "10.1038/nmicrobiol.2016.185",
+        "pmid": "27748768"
+      },
+      {
+        "reference": "Charlier et al. 2017",
+        "title": "Clinical features and prognostic factors of listeriosis",
+        "journal": "The Lancet Infectious Diseases",
+        "doi": "10.1016/S1473-3099(16)30521-7",
+        "pmid": "28041897"
+      }
+    ],
+    "update_frequency": "Annual review recommended"
+  },
+  "clonal_complexes": {
+    "CC1": {
+      "classification": "Hypervirulent",
+      "lineage": "I",
+      "serotypes": [
+        "4b",
+        "4d",
+        "4e"
+      ],
+      "clinical_significance": "HIGH",
+      "clinical_frequency": "Very common in human listeriosis",
+      "notes": "Hypervirulent clone responsible for majority of human listeriosis cases. Associated with CNS and maternal-neonatal infections. Maury et al. 2016 (Nature Genetics).",
+      "primary_reference": "Maury et al. 2016"
+    },
+    "CC2": {
+      "classification": "Hypervirulent",
+      "lineage": "I",
+      "serotypes": [
+        "4b"
+      ],
+      "clinical_significance": "HIGH",
+      "clinical_frequency": "Common in clinical cases",
+      "notes": "Hypervirulent clone associated with CNS infections and high case-fatality rates. Maury et al. 2016 (Nature Genetics).",
+      "primary_reference": "Maury et al. 2016"
+    },
+    "CC3": {
+      "classification": "Intermediate",
+      "lineage": "I",
+      "serotypes": [
+        "4b"
+      ],
+      "clinical_significance": "MODERATE",
+      "clinical_frequency": "Moderate in clinical cases",
+      "notes": "Intermediate virulence clone with variable clinical outcomes. Not among hypervirulent clones (CC1,CC2,CC4,CC6). Maury et al. 2016 (Nature Genetics).",
+      "primary_reference": "Maury et al. 2016"
+    },
+    "CC4": {
+      "classification": "Hypervirulent",
+      "lineage": "I",
+      "serotypes": [
+        "4b"
+      ],
+      "clinical_significance": "HIGH",
+      "clinical_frequency": "Common in RTE products",
+      "notes": "Hypervirulent clone with LIPI-4 island associated with maternal-neonatal listeriosis. Common in RTE products. Maury et al. 2016 (Nature Genetics).",
+      "primary_reference": "Maury et al. 2016"
+    },
+    "CC5": {
+      "classification": "Intermediate",
+      "lineage": "I",
+      "serotypes": [
+        "1/2b",
+        "3b"
+      ],
+      "clinical_significance": "MODERATE",
+      "clinical_frequency": "Moderate",
+      "notes": "Intermediate virulence clone found in clinical and food/environmental sources. Variable clinical outcomes. Moura et al. 2016 (Nature Microbiology).",
+      "primary_reference": "Moura et al. 2016"
+    },
+    "CC6": {
+      "classification": "Hypervirulent",
+      "lineage": "I",
+      "serotypes": [
+        "4b"
+      ],
+      "clinical_significance": "HIGH",
+      "clinical_frequency": "Common in dairy products",
+      "notes": "Hypervirulent clone associated with dairy products. Contains LIPI-3 and often LIPI-4 pathogenicity islands. Maury et al. 2016 (Nature Genetics).",
+      "primary_reference": "Maury et al. 2016"
+    },
+    "CC7": {
+      "classification": "Intermediate",
+      "lineage": "II",
+      "serotypes": [
+        "1/2a"
+      ],
+      "clinical_significance": "MODERATE",
+      "clinical_frequency": "Moderate",
+      "notes": "Intermediate virulence clone found in food processing environments and clinical cases. Moura et al. 2016 (Nature Microbiology).",
+      "primary_reference": "Moura et al. 2016"
+    },
+    "CC8": {
+      "classification": "Intermediate",
+      "lineage": "II",
+      "serotypes": [
+        "1/2a",
+        "1/2c"
+      ],
+      "clinical_significance": "MODERATE",
+      "clinical_frequency": "Moderate",
+      "notes": "Diverse sources including food and clinical.",
+      "primary_reference": "Moura et al. 2016"
+    },
+    "CC9": {
+      "classification": "Persistent",
+      "lineage": "II",
+      "serotypes": [
+        "1/2c",
+        "3c"
+      ],
+      "clinical_significance": "MODERATE",
+      "clinical_frequency": "Common in food/environment",
+      "notes": "Hypovirulent but highly persistent clone in food processing environments. Contains stress survival island SSI-1. Common food contaminant. Maury et al. 2016 (Nature Genetics).",
+      "primary_reference": "Moura et al. 2016"
+    },
+    "CC11": {
+      "classification": "Intermediate",
+      "lineage": "II",
+      "serotypes": [
+        "1/2a"
+      ],
+      "clinical_significance": "MODERATE",
+      "clinical_frequency": "Moderate in clinical cases",
+      "notes": "Intermediate virulence clone found in both clinical and food/environmental sources. Maury et al. 2016 (Nature Genetics).",
+      "primary_reference": "Maury et al. 2016"
+    },
+    "CC14": {
+      "classification": "Intermediate",
+      "lineage": "II",
+      "serotypes": [
+        "1/2a",
+        "3a"
+      ],
+      "clinical_significance": "MODERATE",
+      "clinical_frequency": "Moderate",
+      "notes": "Found in diverse sources.",
+      "primary_reference": "Moura et al. 2016"
+    },
+    "CC37": {
+      "classification": "Intermediate",
+      "lineage": "II",
+      "serotypes": [
+        "1/2a"
+      ],
+      "clinical_significance": "MODERATE",
+      "clinical_frequency": "Moderate",
+      "notes": "Found in food processing environments.",
+      "primary_reference": "Moura et al. 2016"
+    },
+    "CC87": {
+      "classification": "Intermediate",
+      "lineage": "I",
+      "serotypes": [
+        "1/2b"
+      ],
+      "clinical_significance": "MODERATE",
+      "clinical_frequency": "Regional importance (China)",
+      "notes": "Intermediate virulence clone with regional significance in Asia. Not among core hypervirulent clones. Moura et al. 2016 (Nature Microbiology).",
+      "primary_reference": "Moura et al. 2016"
+    },
+    "CC101": {
+      "classification": "Intermediate",
+      "lineage": "II",
+      "serotypes": [
+        "1/2a"
+      ],
+      "clinical_significance": "MODERATE",
+      "clinical_frequency": "Moderate",
+      "notes": "Found in food products and processing environments.",
+      "primary_reference": "Moura et al. 2016"
+    },
+    "CC121": {
+      "classification": "Persistent",
+      "lineage": "II",
+      "serotypes": [
+        "1/2a"
+      ],
+      "clinical_significance": "MODERATE",
+      "clinical_frequency": "Very common in food/environment",
+      "notes": "Most persistent clone in food processing environments. Reduced virulence due to frequent inlA truncations. Contains SSI-1 and SSI-2 stress survival islands. Maury et al. 2016 (Nature Genetics).",
+      "primary_reference": "Maury et al. 2016"
+    },
+    "CC155": {
+      "classification": "Hypovirulent",
+      "lineage": "II",
+      "serotypes": [
+        "1/2a"
+      ],
+      "clinical_significance": "LOW",
+      "clinical_frequency": "Rare in clinical cases",
+      "notes": "Hypovirulent clone commonly isolated from food and environment, rarely causes human disease. Low clinical relevance. Moura et al. 2016 (Nature Microbiology).",
+      "primary_reference": "Maury et al. 2016"
+    },
+    "CC204": {
+      "classification": "Intermediate",
+      "lineage": "II",
+      "serotypes": [
+        "1/2a"
+      ],
+      "clinical_significance": "MODERATE",
+      "clinical_frequency": "Moderate",
+      "notes": "Found in food processing environments.",
+      "primary_reference": "Moura et al. 2016"
+    },
+    "CC224": {
+      "classification": "Intermediate",
+      "lineage": "I",
+      "serotypes": [
+        "1/2b"
+      ],
+      "clinical_significance": "MODERATE",
+      "clinical_frequency": "Regional",
+      "notes": "Lineage I clone found in food and clinical samples.",
+      "primary_reference": "Moura et al. 2016"
+    },
+    "CC69": {
+      "classification": "Hypovirulent",
+      "lineage": "III",
+      "serotypes": [
+        "4a",
+        "4c"
+      ],
+      "clinical_significance": "LOW",
+      "clinical_frequency": "Rare in human disease",
+      "notes": "Lineage III clone predominantly found in animals and environment, rarely causes human listeriosis. Low pathogenic potential. Maury et al. 2016 (Nature Genetics).",
+      "primary_reference": "Maury et al. 2016"
+    },
+    "CC70": {
+      "classification": "Hypovirulent",
+      "lineage": "III",
+      "serotypes": [
+        "4a",
+        "4c"
+      ],
+      "clinical_significance": "LOW",
+      "clinical_frequency": "Rare in human disease",
+      "notes": "Lineage III. Associated with animal hosts, particularly ruminants.",
+      "primary_reference": "Moura et al. 2016"
+    },
+    "CC131": {
+      "classification": "Hypovirulent",
+      "lineage": "III",
+      "serotypes": [
+        "4a",
+        "4c"
+      ],
+      "clinical_significance": "LOW",
+      "clinical_frequency": "Rare in human disease",
+      "notes": "Lineage III clone with low pathogenic potential for humans.",
+      "primary_reference": "Moura et al. 2016"
+    },
+    "CC203": {
+      "classification": "Hypovirulent",
+      "lineage": "III",
+      "serotypes": [
+        "4a",
+        "4c"
+      ],
+      "clinical_significance": "LOW",
+      "clinical_frequency": "Rare",
+      "notes": "Lineage III clone found in environmental and animal sources.",
+      "primary_reference": "Moura et al. 2016"
+    },
+    "CC396": {
+      "classification": "Hypovirulent",
+      "lineage": "III",
+      "serotypes": [
+        "4a",
+        "4c"
+      ],
+      "clinical_significance": "LOW",
+      "clinical_frequency": "Rare",
+      "notes": "Lineage III clone found in environmental sources.",
+      "primary_reference": "Moura et al. 2016"
+    },
+    "CC406": {
+      "classification": "Hypovirulent",
+      "lineage": "III",
+      "serotypes": [
+        "4a",
+        "4c"
+      ],
+      "clinical_significance": "LOW",
+      "clinical_frequency": "Rare",
+      "notes": "Lineage III environmental clone.",
+      "primary_reference": "Moura et al. 2016"
+    },
+    "CC434": {
+      "classification": "Hypovirulent",
+      "lineage": "III",
+      "serotypes": [
+        "4a",
+        "4c"
+      ],
+      "clinical_significance": "LOW",
+      "clinical_frequency": "Rare",
+      "notes": "Lineage III. Environmental and animal-associated clone.",
+      "primary_reference": "Moura et al. 2016"
+    },
+    "CC440": {
+      "classification": "Hypovirulent",
+      "lineage": "III",
+      "serotypes": [
+        "4a"
+      ],
+      "clinical_significance": "LOW",
+      "clinical_frequency": "Rare",
+      "notes": "Lineage III clone with low clinical relevance.",
+      "primary_reference": "Moura et al. 2016"
+    },
+    "CC641": {
+      "classification": "Hypovirulent",
+      "lineage": "III",
+      "serotypes": [
+        "4a",
+        "4c"
+      ],
+      "clinical_significance": "LOW",
+      "clinical_frequency": "Rare",
+      "notes": "Lineage III clone. Found in animals and food products but rarely causes human disease.",
+      "primary_reference": "Moura et al. 2016"
+    },
+    "CC669": {
+      "classification": "Hypovirulent",
+      "lineage": "III",
+      "serotypes": [
+        "4a",
+        "4c"
+      ],
+      "clinical_significance": "LOW",
+      "clinical_frequency": "Rare",
+      "notes": "Lineage III. Predominantly isolated from environmental and animal sources.",
+      "primary_reference": "Moura et al. 2016"
+    },
+    "CC562": {
+      "classification": "Hypovirulent",
+      "lineage": "IV",
+      "serotypes": [
+        "4a",
+        "4b"
+      ],
+      "clinical_significance": "LOW",
+      "clinical_frequency": "Very rare in human disease",
+      "notes": "Lineage IV clone. Extremely rare in human listeriosis. Lineage IV strains have reduced virulence.",
+      "primary_reference": "Maury et al. 2016"
+    }
+  }
+}

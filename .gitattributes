@@ -1,0 +1,25 @@
+# Texto
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.toml text eol=lf
+*.cfg text eol=lf
+*.txt text eol=lf
+*.cff text eol=lf
+*.tsv text eol=lf
+*.csv text eol=lf
+*.json text eol=lf
+Dockerfile text eol=lf
+
+# Binary / image files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+
+# FASTA de test (texto pero potencialmente grandes)
+*.fasta text eol=lf
+*.fa text eol=lf
+*.fna text eol=lf

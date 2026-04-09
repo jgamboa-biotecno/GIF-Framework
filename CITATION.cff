@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the references listed below."
+title: "GIF — Genomic Intelligence Framework"
+abstract: "A multi-component genomic risk assessment tool that integrates virulence, persistence, clonality and antimicrobial resistance into a unified 0-100 score for Listeria monocytogenes, with trophic strategy classification."
+authors:
+  - family-names: "Gamboa"
+    given-names: "Javier"
+version: 1.0.0
+license: Apache-2.0
+type: software
+repository-code: "https://github.com/jgamboa-biotecno/GIF-Framework"
+references:
+  - type: article
+    authors:
+      - family-names: "Gamboa"
+        given-names: "Javier"
+    title: "Amphitrophic Listeria monocytogenes: multi-dimensional genomic profiling reveals a third ecological strategy that challenges the virulence-persistence trade-off paradigm"
+    year: 2026
+    journal: "bioRxiv"
+    doi: "10.64898/2026.03.23.713700"
+  - type: article
+    authors:
+      - family-names: "Gamboa"
+        given-names: "Javier"
+    title: "Amphitrophic Listeria monocytogenes causes one-third of invasive listeriosis yet remains undetected by clonal complex-based risk classification"
+    year: 2026
+    journal: "bioRxiv"
+    doi: "10.64898/2026.03.28.715028"
+  - type: article
+    authors:
+      - family-names: "Gamboa"
+        given-names: "Javier"
+    title: "Beyond Outbreak Detection: Mandatory Genomic Surveillance in the EU as an Opportunity to Quantify Metal-Mediated Co-Selection of Antimicrobial Resistance from a One Health Perspective"
+    year: 2026
+    journal: "Preprints.org"
+    doi: "10.20944/preprints202604.0573.v1"
+  - type: article
+    authors:
+      - family-names: "Gamboa"
+        given-names: "Javier"
+    title: "From Serogroup to Genome: The Unfinished Transition in EU Food Safety Criteria for Shiga Toxin-Producing Escherichia coli"
+    year: 2026
+    journal: "Preprints.org"
+    doi: "10.20944/preprints202604.0508.v1"

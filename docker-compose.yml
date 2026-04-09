@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  gif:
+    build: .
+    volumes:
+      - ./data:/data
+      - ./results:/results
+    command: ["score", "/data/genomes/", "--output", "/results/"]
